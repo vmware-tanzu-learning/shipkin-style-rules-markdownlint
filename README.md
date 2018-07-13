@@ -62,8 +62,8 @@ rules:
     `exampleFaultyDoc.md` file to see a 'broken' file.
 
 1.  Open *Problem View* - You can enable by navigating to
-    *View Menu >> Problems*, or Shift+Cmd+M on Mac OSX, or Shift-Ctrl-M
-    on Windows.
+    *View Menu >> Problems*, or `Shift+Cmd+M` on Mac OSX, or
+    `Shift-Ctrl-M` on Windows.
 
 1.  View the problem pane, click on associated problem to navigate to
     offense in the markdown editor.
