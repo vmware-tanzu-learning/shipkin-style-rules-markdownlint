@@ -32,7 +32,7 @@ rules:
     Settings.
     You can do this in one of three ways:
 
-    -   Globally through the IDE by `Cmd-,` on Mac OSX, or `Cntrl=,` on
+    -   Globally through the IDE by `Cmd-,` on Mac OSX, or `Cntrl-,` on
         Windows.
 
     -   Update the User Settings file directly:
