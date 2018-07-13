@@ -38,9 +38,12 @@ The installation assumes default settings installation under the user
 home directory:
 
 -   Linux:
-    .config/Code/User/settings.json
+    `.config/Code/User/settings.json`
 -   Mac:
-    Library/Application Support/Code/User/settings.json
+    `Library/Application \Support/Code/User/settings.json`
+
+    **Note**: On Mac OSX, the `.vscode` and `Library` folders will be
+    hidden in Finder.
 
 The install script will do the following:
 
