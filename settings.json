@@ -1,0 +1,31 @@
+{
+    "editor.rulers": [
+        72
+    ],
+    "markdownlint.customRules": [
+        "~/.vscode/markdownlint/custom-rules/sentence-end-line.js",
+        "~/.vscode/markdownlint/custom-rules/no-contractions.js",
+    ],
+    "markdownlint.config": {
+        "MD007": {
+            "indent": 4,
+        },
+        "MD013": false,
+        "MD024": false,
+        "MD025": false,
+        "MD030": {
+            "ul_single": 1,
+            "ul_multi": 3,
+            "ol_single": 1,
+            "ol_multi": 2,
+        },
+        "MD033": false,
+        "MD043": {
+            "headings": [
+                "# Purpose",
+                "*",
+            ],
+        },
+    },
+    "files.trimTrailingWhitespace": true,
+}
