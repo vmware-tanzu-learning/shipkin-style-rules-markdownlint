@@ -72,7 +72,15 @@ Steps:
 
 ### Uninstall
 
-If you desire
+If you desire to remove the custom settings and rules, you may run the
+`./uninstall.sh` script directly from the project root.
+It will:
+
+-   Restore user settings to the backup created during the install.
+    **Note**:  If you made changes to user settings since the install
+    you will need to merge to the backup.
+
+-   Remove the custom rule files.
 
 ### Manual Installation
 
