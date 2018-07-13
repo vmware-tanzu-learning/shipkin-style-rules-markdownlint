@@ -7,6 +7,9 @@
         "~/.vscode/markdownlint/custom-rules/no-contractions.js",
     ],
     "markdownlint.config": {
+        "MD004": {
+            "style": "dash"
+        },        
         "MD007": {
             "indent": 4,
         },
