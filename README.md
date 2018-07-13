@@ -32,7 +32,7 @@ rules:
     Settings.
     You can do this in one of three ways:
 
-    -   Globally through the IDE by `Cmd+,` on Mac OSX, or `Cntrl+,` on
+    -   Globally through the IDE by `Cmd-,` on Mac OSX, or `Cntrl=,` on
         Windows.
 
     -   Update the User Settings file directly:
@@ -62,7 +62,7 @@ rules:
     `exampleFaultyDoc.md` file to see a 'broken' file.
 
 1.  Open *Problem View* - You can enable by navigating to
-    *View Menu >> Problems*, or `Shift+Cmd+M` on Mac OSX, or
+    *View Menu >> Problems*, or `Shift-Cmd-M` on Mac OSX, or
     `Shift-Ctrl-M` on Windows.
 
 1.  View the problem pane, click on associated problem to navigate to
@@ -90,8 +90,11 @@ This is both a Shipkin and Google recommendation.
 Multi-line lists need to honor the indentation; however, single line
 lists may still maintain spacing of 1.
 
+Unordered lists must be annotated with a dash.
+
 The associated markdownlint configuration is via:
 
+- MD004 style property set to dash.
 - MD007 ident property set to 4
 - MD030 has properties for ordered and undered list.
 
