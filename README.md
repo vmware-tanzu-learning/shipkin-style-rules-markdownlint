@@ -223,3 +223,46 @@ The general procedure is as follows:
     rule file.
 
 1.  Consider contributing here either directly, or as a pull request!
+
+# Known Issues
+
+1.  End of sentence patterns do not always work.
+    The associated regex expression in `sentence-end-line.js` needs some
+    love.
+
+1.  Handling indentation whitespace 'flakiness'.
+
+    -   The rules are also very precise for both the one and multi-line
+        scenarios.
+
+        Watch out carefully to maintain a four space indentation for
+        multi-line lists.
+
+        If you are having issues with one-space on single line lists,
+        try adding single empty line between list elements and keep the
+        four space indentation.
+
+    -   VSC may occasionally "get confused" on the configured
+        indentation and put two space, instead of four.
+        Check you configuration, and/or restart VSC.
+
+    -   If markdownlint plugin gives a false positive, try to either cut
+        and paste the offending block, or restart VSC.
+
+# New Feature Candidates
+
+## Enhanced install and uninstall scripts
+
+-   Ability to parameterize install directory
+    Default is home directory VSC installation
+
+-   Ability to set rule configuration at the workspace versus user level
+
+## Custom Shipkin rules
+
+1.  End of line, excluding:
+    - Links (if the link starts at the BOL)
+    - github Links (if the link starts at the BOL)
+    - Code blocks
+
+1.  Lazy ordered lists
