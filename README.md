@@ -28,11 +28,56 @@ rules:
     [site for details of Markdown Rules](https://github.com/DavidAnson/markdownlint)
     for details of extension and Markdown rules.
 
+### Installation
+
+If you want the easiest install, run install script.
+It is supported on Linux or Mac OSX distributions, although feel free to
+add Windows support if you must.
+
+The installation assumes default settings installation under the user
+home directory:
+
+-   Linux:
+    .config/Code/User/settings.json
+-   Mac:
+    Library/Application Support/Code/User/settings.json
+
+The install script will do the following:
+
+-   Backup your existing `settings.json` to `settings.json.backup`.
+
+-   Install new settings.json
+    **Note**: The new settings will replace your original settings, you
+    will need to manually merge from the `settings.json.backup` file.
+
+Steps:
+
+-   Clone this project to machine where Visual Studio Code is installed
+    and you desire to run markdownlint.
+
+-   Run the install from the root project directory:
+
+    ```bash
+    ./install.sh
+    ```
+
+-   Optionally merge back you user settings.
+    You can access directly from Visual Studio Code via:
+
+    - `Cmd-,` on Mac OSX
+    - `Ctrl+,` on Linux
+
+### Uninstall
+
+If you desire
+
+### Manual Installation
+
 1.  Merge the `settings.json` into your Visual Studio Code User
     Settings.
     You can do this in one of three ways:
 
-    -   Globally through the IDE by `Cmd-,` on Mac OSX, or `Cntrl-,` on
+    -   Globally through the IDE by `Cmd-,` on Mac OSX, or `Ctrl+,` on
         Windows.
 
     -   Update the User Settings file directly:
@@ -63,7 +108,7 @@ rules:
 
 1.  Open *Problem View* - You can enable by navigating to
     *View Menu >> Problems*, or `Shift-Cmd-M` on Mac OSX, or
-    `Shift-Ctrl-M` on Windows.
+    `Shift+Ctrl+M` on Windows.
 
 1.  View the problem pane, click on associated problem to navigate to
     offense in the markdown editor.

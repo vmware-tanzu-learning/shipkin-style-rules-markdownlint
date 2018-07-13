@@ -3,13 +3,13 @@
         72
     ],
     "markdownlint.customRules": [
-        "~/.vscode/markdownlint/custom-rules/sentence-end-line.js",
-        "~/.vscode/markdownlint/custom-rules/no-contractions.js",
+        "$HOME/.vscode/markdownlint/custom-rules/sentence-end-line.js",
+        "$HOME/.vscode/markdownlint/custom-rules/no-contractions.js",
     ],
     "markdownlint.config": {
         "MD004": {
             "style": "dash"
-        },        
+        },
         "MD007": {
             "indent": 4,
         },
