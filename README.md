@@ -17,33 +17,33 @@ improve.
 Follow these steps to configure markdownlint and associated custom:
 rules:
 
--   Install
+1.  Install
     [Visual Studio Code](https://code.visualstudio.com/download)
     (if not already).
 
--   Install *markdownlint* extension from extension view in
+1.  Install *markdownlint* extension from extension view in
     Visual Studio Code.
 
     See the accompanying
     [site for details of Markdown Rules](https://github.com/DavidAnson/markdownlint)
     for details of extension and Markdown rules.
 
--   Merge the `settings.json` into your Visual Studio Code User
+1.  Merge the `settings.json` into your Visual Studio Code User
     Settings.
     You can do this in one of three ways:
 
-    1.  Globally through the IDE by `Cmd+,` on Mac OSX, or `Cntrl+,` on
+    -   Globally through the IDE by `Cmd+,` on Mac OSX, or `Cntrl+,` on
         Windows.
 
-    1.  Update the User Settings file directly:
+    -   Update the User Settings file directly:
 
         -   On Mac OSX,
             `~/Library/Application Support/Code/User/settings.json`
 
-    1.  You may set at project level by putting `settings.json` in
+    -   You may set at project level by putting `settings.json` in
         project relative directory `.vscode/settings.json`
 
--   Install the custom rules by downloading the contents from `src`
+1.  Install the custom rules by downloading the contents from `src`
     folder and putting into a named directory referenced by the
     `markdownlint.customRules` entries.
 
@@ -51,23 +51,24 @@ rules:
     `~/.vscode/markdownlint/custom-rules/`, although it would be
     whereever you chose.
 
-    **Note: If Visual Studio Code does not pick load or recognize the
+    **Note:
+    If Visual Studio Code does not pick load or recognize the
     custom rules, replace the user home shortcut with an absolute
     path.**
 
 ## Usage
 
--   Author some markdown code in Visual Studio code, or you can open
+1.  Author some markdown code in Visual Studio code, or you can open
     `exampleFaultyDoc.md` file to see a 'broken' file.
 
--   Open *Problem View* - You can enable by navigating to
+1.  Open *Problem View* - You can enable by navigating to
     *View Menu >> Problems*, or Shift+Cmd+M on Mac OSX, or Shift-Ctrl-M
     on Windows.
 
--   View the problem pane, click on associated problem to navigate to
+1.  View the problem pane, click on associated problem to navigate to
     offense in the markdown editor.
 
--   Fix it.
+1.  Fix it!
 
 ## Notes on the supplied user settings and custom rules
 
