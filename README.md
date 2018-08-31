@@ -50,6 +50,7 @@ The install script will do the following:
 -   Backup your existing `settings.json` to `settings.json.backup`.
 
 -   Install new settings.json
+
     **Note**: The new settings will replace your original settings, you
     will need to manually merge from the `settings.json.backup` file.
 
@@ -64,7 +65,7 @@ Steps:
     ./install.sh
     ```
 
--   Optionally merge back you user settings.
+-   Optionally merge back your user settings.
     You can access directly from Visual Studio Code via:
 
     - `Cmd-,` on Mac OSX
